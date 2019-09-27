@@ -8,6 +8,12 @@ img {
   max-width: 100%;
   display: block;
 }
+.image-about-me {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
 
 /* TYPOGRAPHY*/
 h1,
@@ -21,6 +27,9 @@ h3 {
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+h3 {
+  color: #1792d2;
 }
 a {
   color: #1792d2;
@@ -68,11 +77,14 @@ strong {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
+.widget-recent-post-title {
+  color: #143774;
+}
 
 /*LAYOUT*/
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .container-flex {
@@ -145,7 +157,7 @@ nav a:focus {
   }
 }
 
-/*articles*/
+/*ARTICLES*/
 .article-featured {
   border-bottom: #707070 1px solid;
   padding-bottom: 1em;
