@@ -4,4 +4,4 @@
 
 [https://markupblog.netlify.com/index.html](https://markupblog.netlify.com/index.html)
 
-![Blog screenshot](./img/blog-screenshot.jpg)
+![Blog screenshot](./img/blog-screenshot.JPG)
